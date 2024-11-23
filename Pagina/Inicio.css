@@ -1,0 +1,347 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Fuente1;
+    src: url(../Fuentes/heavy\ heap\ rg.otf);
+}
+
+html {
+
+    font-family: ;
+    padding: 0 0 0 0;
+
+}
+
+body {
+
+    background-image: url(../Imagenes/Pagina/20c442c3-aeeb-484a-a58f-01fbe957ebe0.webp);
+    background-repeat: round;
+
+}
+
+header {
+
+    display: flex;
+    background-color: whitesmoke;
+    min-height: 10vh;
+
+
+
+
+}
+
+
+.h1 {
+
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+    padding: 2% 7%;
+    font-family: Fuente1;
+
+
+}
+
+.h1 img {
+
+    width: 50%;
+
+
+}
+
+.h1 h1 {
+
+    font-size: 350%;
+
+}
+
+nav {
+
+    display: flex;
+    background-color: #c10525;
+    min-height: 5.5vh;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px 5px;
+
+
+}
+
+
+.logonav {
+
+    font-family: Fuente1;
+    font-size: 22px;
+
+}
+
+nav a {
+
+    font-size: 15px;
+    padding: 6px;
+    border-radius: 20%;
+    background-color: black;
+    color: whitesmoke;
+    text-decoration: none;
+
+
+}
+
+
+
+main {}
+
+.texto1 {
+
+    text-align: center;
+    font-family: Fuente1;
+    padding: 10px 0;
+
+}
+
+.catalogo {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.producto {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
+    transition: transform 0.2s;
+}
+
+.producto:hover {
+    transform: scale(1.05);
+}
+
+.producto a img {
+    width: 100%;
+    height: 85vh;
+    border-radius: 10px 10px 0 0;
+}
+
+.producto h3 {
+    font-size: 2.2em;
+    color: black;
+    margin: 10px 0;
+    font-family: Fuente1;
+}
+
+.producto p {
+    color: #666;
+    font-size: 0.9em;
+    margin: 5px 0;
+}
+
+.precio {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #c10525;
+}
+
+.btn-comprar {
+    background-color: #c10525;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.btn-comprar:hover {
+    background-color: #000000;
+    color: #c10525;
+}
+
+/* Adaptación para dispositivos móviles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    .producto h3 {
+        font-size: 1em;
+    }
+
+    .btn-comprar {
+        padding: 8px;
+    }
+}
+
+.cuadro-info h2 {
+
+    font-family: Fuente1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 250%;
+}
+
+.cuadro-info {
+
+    padding: auto;
+    margin: 20px;
+
+
+}
+
+.cuadro {
+
+    min-height: 80vh;
+    background-color: #666;
+    display: flex;
+    flex-direction: column;
+}
+
+.caja1 {
+
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.caja2 {
+
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.caja3 {
+
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.caja4 {
+
+    min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.subcaja1 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: black;
+    color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 70px;
+}
+
+.subcaja2 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 20px;
+}
+
+
+.subcaja3 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: #c10525;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 70px;
+}
+
+
+.subcaja4 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: rgb(162, 162, 162);
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 20px;
+}
+
+
+.subcaja5 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: black;
+    color: gray;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 70px;
+}
+
+
+.subcaja6 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: grey;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 20px;
+}
+
+
+.subcaja7 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: #c10525;
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 60px;
+}
+
+
+.subcaja8 {
+
+    min-height: 20vh;
+    width: 50%;
+    background-color: rgb(162, 162, 162);
+    color: black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: Fuente1;
+    font-size: 20px;
+}
